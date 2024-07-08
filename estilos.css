@@ -73,11 +73,44 @@ header{
 }
 #img11s{
     display: flex;
-    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    width: 70%;
     height: 50%;
     margin: 0.5%;
     border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 30%;
+}
+#imgFlia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    width: 50%;
+    height: 30%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+    border-radius: 15%;
+}
+#imgFlia:hover{
+    width: 75%;
+    height: 50%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+}
+#imgtempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto ;
+    width: 30%;
+    height: 10%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+    border-radius: 15%;
+}
+#imgtempo:hover{
+    width: 75%;
+    height: 50%;
+    border: rgba(255, 255, 255, 0.693) solid ;
 }
 #div1{
     display: flex;
@@ -244,7 +277,7 @@ header{
     width: 38vw;
     margin: 20px;
     position: relative;
-    top:20px;
+    top:0px;
     left: 1090px;
     background-color: transparent;
     font-size: 1.5em;
@@ -258,4 +291,78 @@ header{
     color: rgba(232, 42, 0, 0.855);
     background-color: rgb(255, 255, 255);
     border: rgb(16, 26, 222) solid ;
+}
+#div8{
+    display: fixed;
+    justify-content: flex-start;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    margin-left: 25px;
+    position: relative;
+    top:0px;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p20{
+    display: flex;
+    justify-content: center;
+    font-family: simpsons;
+}
+#div8:hover{
+    color: rgba(232, 42, 0, 0.855);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#div9{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p21{
+    display: flex;
+    justify-content: center;
+    font-family: simpsons;
+}
+#div9:hover{
+    color: rgb(25, 9, 255);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#hft{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: simpsons;
+    text-decoration: underline;
+    font-size: 2.5em;
+    color: rgb(215, 52, 215); 
+}
+#divft{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 28vw;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#divft:hover{
+    color: rgb(25, 9, 255);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+    font-size: 2em;
 }
