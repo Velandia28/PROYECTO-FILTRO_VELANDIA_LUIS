@@ -53,25 +53,29 @@ header {
 }
 #imgHS {
     display: flex;
-    width: 15%; /* Modificado para que sea más flexible */
-    height: 20%; /* Modificado para que sea más flexible */
+    width: 35%; 
+    height: 20%; 
     margin: 0.5%;
     border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 20%;
 }
 #imgSpfd {
     display: flex;
-    width: 70%; /* Modificado para que sea más flexible */
-    height: 60%; /* Modificado para que sea más flexible */
-    margin: 0.5%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 65%;
+    height: 30%; 
     border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 30%;
 }
 #imgMG {
     display: flex;
-    width: 35%; /* Modificado para que sea más flexible */
-    height: 25%; /* Modificado para que sea más flexible */
-    margin: 0.5%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 35%; 
+    height: 25%; 
     border: rgba(0, 0, 0, 0.693) solid;
     border-radius: 20%;
 }
@@ -80,25 +84,29 @@ header {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 70%; /* Modificado para que sea más flexible */
-    height: 50%; /* Modificado para que sea más flexible */
-    margin: 0.5%;
+    width: 40%;
+    height: 32%; 
     border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 30%;
+}
+#img11s:hover {
+    width: 60%; 
+    height: 40%;
+    border: rgba(255, 255, 255, 0.693) solid;
 }
 #imgFlia {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 50%; /* Modificado para que sea más flexible */
-    height: 30%; /* Modificado para que sea más flexible */
+    width: 40%;
+    height: 30%; 
     border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 15%;
 }
 #imgFlia:hover {
-    width: 65%; /* Modificado para que sea más flexible */
-    height: 50%; /* Modificado para que sea más flexible */
+    width: 55%; 
+    height: 40%; 
     border: rgba(255, 255, 255, 0.693) solid;
 }
 #imgtempo {
@@ -106,17 +114,16 @@ header {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 30%; /* Modificado para que sea más flexible */
-    height: 10%; /* Modificado para que sea más flexible */
+    width: 40%; 
+    height: 50%;
     border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 15%;
 }
 #imgtempo:hover {
-    width: 75%; /* Modificado para que sea más flexible */
-    height: 50%; /* Modificado para que sea más flexible */
+    width: 60%; 
+    height: 40%;
     border: rgba(255, 255, 255, 0.693) solid;
 }
- /* Divs */
 #div1 {
     display: flex;
     justify-content: center;
