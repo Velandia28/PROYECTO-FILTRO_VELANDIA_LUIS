@@ -3,366 +3,125 @@
     font-family:simpsons;
     src: url(Simpsonfont.otf);
 }
-body{
+body {
     background-image: url(/img/fondo.jpg);
     background-attachment: fixed;
     background-size: cover;
     margin: 0px;
+    padding: 0px;
 }
-*{
+* {
     padding: 0px;
     margin: 0px;
-}       
-h1{
-        text-align: center;
-        font-family: simpsons;
-        font-optical-sizing:auto;
-        font-weight:500px;
-        color: blue;
-        font-variation-settings:
-        "MORF" 25%,
-        "SHLN" 15%
+    box-sizing: border-box;  
 }
-a{      
-    text-decoration:none ;
+h1 {
+    text-align: center;
+    font-family: simpsons;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: blue;
+    font-variation-settings: "MORF" 25%, "SHLN" 15%;
+}  
+a {
+    text-decoration: none;
     color: rgb(22, 45, 249, 0.75);
-    font-family:simpsons ;
-    font-size: 2em ;
+    font-family: simpsons;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-around   ;
 }
 ul {
-    display:inline-flex;
+    display: flex;
     justify-content: space-around;
     list-style: none;
     padding: 0px;
-    gap: 110px;
-    text-decoration: underline;
+    gap: 20px; /* Modificado para que sea más flexible */
 }
-header{ 
-    display:flex;
-    justify-content:space-around;
-    position:fixed;
-    padding: 10px;
+header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    padding: 1%;
     align-items: center;
-    top: 0px;
-    left: 0px;
+    top: 0%;
+    left: 0%;
     box-shadow: 0 2px 5px rgba(245, 10, 10, 0.1);
 }
-#imgHS{
+#imgHS {
     display: flex;
-    width: 15%;
-    height: 20%;
+    width: 15%; /* Modificado para que sea más flexible */
+    height: 20%; /* Modificado para que sea más flexible */
     margin: 0.5%;
-    border: rgba(255, 255, 255, 0.693) solid ;
+    border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 20%;
 }
-#imgSpfd{
+#imgSpfd {
     display: flex;
-    width: 70%;
-    height: 60%;
+    width: 70%; /* Modificado para que sea más flexible */
+    height: 60%; /* Modificado para que sea más flexible */
     margin: 0.5%;
-    border: rgba(255, 255, 255, 0.693) solid ;
-    border-radius: 30%; 
-}
-#imgMG{
-    display: flex;
-    width: 45%;
-    height: 45%;
-    margin: 0.5%;
-    border: rgba(0, 0, 0, 0.693) solid ;
-    border-radius: 20%;
-}
-#img11s{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:auto ;
-    width: 70%;
-    height: 50%;
-    margin: 0.5%;
-    border: rgba(255, 255, 255, 0.693) solid ;
+    border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 30%;
 }
-#imgFlia{
+#imgMG {
+    display: flex;
+    width: 35%; /* Modificado para que sea más flexible */
+    height: 25%; /* Modificado para que sea más flexible */
+    margin: 0.5%;
+    border: rgba(0, 0, 0, 0.693) solid;
+    border-radius: 20%;
+}
+#img11s {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto ;
-    width: 50%;
-    height: 30%;
-    border: rgba(255, 255, 255, 0.693) solid ;
+    margin: auto;
+    width: 70%; /* Modificado para que sea más flexible */
+    height: 50%; /* Modificado para que sea más flexible */
+    margin: 0.5%;
+    border: rgba(255, 255, 255, 0.693) solid;
+    border-radius: 30%;
+}
+#imgFlia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%; /* Modificado para que sea más flexible */
+    height: 30%; /* Modificado para que sea más flexible */
+    border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 15%;
 }
-#imgFlia:hover{
-    width: 75%;
-    height: 50%;
-    border: rgba(255, 255, 255, 0.693) solid ;
+#imgFlia:hover {
+    width: 65%; /* Modificado para que sea más flexible */
+    height: 50%; /* Modificado para que sea más flexible */
+    border: rgba(255, 255, 255, 0.693) solid;
 }
-#imgtempo{
+#imgtempo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto ;
-    width: 30%;
-    height: 10%;
-    border: rgba(255, 255, 255, 0.693) solid ;
+    margin: auto;
+    width: 30%; /* Modificado para que sea más flexible */
+    height: 10%; /* Modificado para que sea más flexible */
+    border: rgba(255, 255, 255, 0.693) solid;
     border-radius: 15%;
 }
-#imgtempo:hover{
-    width: 75%;
-    height: 50%;
-    border: rgba(255, 255, 255, 0.693) solid ;
+#imgtempo:hover {
+    width: 75%; /* Modificado para que sea más flexible */
+    height: 50%; /* Modificado para que sea más flexible */
+    border: rgba(255, 255, 255, 0.693) solid;
 }
-#div1{
+ /* Divs */
+#div1 {
     display: flex;
     justify-content: center;
     align-items: center;
     border: blue solid;
     border-radius: 20px;
-    width: 38vw;
-    margin: 0 auto;
-    position: relative;
-    top: 80px;
-    background-color: transparent;
-    font-size: 1em;
-}
-#div1:hover{
-    color: blue;
-    font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(97, 228, 50);
-    border: rgb(255, 255, 247) solid ;
-}
-#div2{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    position: relative;
-    left: 20px;
-    width: 45vw;
-    height: 38vw;
-    background-color: transparent;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,Trebuchet MS;
-    font-size: 1.3rem;
-}
-#div2:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(231, 103, 23);
-    border: rgb(16, 26, 222) solid ;
-}
-#h2his{
-    display: flex;
-    position: relative;
-    left: 45px;
-    font-family: simpsons;
-    color: gree;
-    font-size: 2.5em;
-    color: rgb(215, 52, 215);
-}
-#H22{
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    right: 75px;
-    font-family: simpsons;
-    font-size: 2.5em;
-    color: rgb(215, 52, 215);
-}
-#div3{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 32vw;
-    height: 28vw;
-    background-color: transparent;
-    font-size: 1.25rem;
-    float: right;   
-}  
-#div3:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(208, 117, 61);
-    border: rgb(16, 26, 222) solid ;
-}
-#hpredic{
-    display: flex;
-    position: relative;
-    justify-content: flex-start;
-    left: 75px;
-    font-family: simpsons;
-    font-size: 2.5em;
-    color: rgb(215, 52, 215);  
-}
-#div4{
-    display: fixed;
-    justify-items: center;
-    align-content: flex-start;
-    border: blue solid;
-    border-radius: 20px;
-    width: 24vw;
-    height: 25vw;
-    margin-left:25px;
-    background-color: transparent;
-    font-size: 1em;
-}
-#div4:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgb(231, 103, 23);
-    border: rgb(16, 26, 222) solid ;
-}
-#h33{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    text-decoration: underline;
-    right: 75px;
-    font-family: simpsons;
-    font-size: 2.5em;
-    color: rgb(215, 52, 215); 
-}
-#div5{
-    display: fixed;
-    justify-content: center;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 38vw;
-    margin: 0 auto;
-    position: relative;
-    top: 40px;
-    background-color: transparent;
-    font-size: 1.5em;
-}
-#p17{
-    display: flex;
-    justify-content: center;
-    font-family: simpsons;
-}
-#div5:hover{
-    color: rgb(25, 9, 255);
-    background-color: rgb(255, 255, 255);
-    border: rgb(16, 26, 222) solid ;
-}
-#div6{
-    display: fixed;
-    justify-content: flex-start;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 38vw;
-    margin-left: 25px;
-    position: relative;
-    top: 40px;
-    background-color: transparent;
-    font-size: 1.5em;
-}
-#p18{
-    display: flex;
-    justify-content: center;
-    font-family: simpsons;
-}
-#div6:hover{
-    color: rgba(25, 255, 9, 0.732);
-    background-color: rgb(255, 255, 255);
-    border: rgb(16, 26, 222) solid ;
-}
-#div7{
-    display: fixed;
-    justify-content:center;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 38vw;
-    margin: 20px;
-    position: relative;
-    top:0px;
-    left: 1090px;
-    background-color: transparent;
-    font-size: 1.5em;
-}
-#p19{
-    display: flex;
-    justify-content: center;
-    font-family: simpsons;
-}
-#div7:hover{
-    color: rgba(232, 42, 0, 0.855);
-    background-color: rgb(255, 255, 255);
-    border: rgb(16, 26, 222) solid ;
-}
-#div8{
-    display: fixed;
-    justify-content: flex-start;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 38vw;
-    margin-left: 25px;
-    position: relative;
-    top:0px;
-    background-color: transparent;
-    font-size: 1.5em;
-}
-#p20{
-    display: flex;
-    justify-content: center;
-    font-family: simpsons;
-}
-#div8:hover{
-    color: rgba(232, 42, 0, 0.855);
-    background-color: rgb(255, 255, 255);
-    border: rgb(16, 26, 222) solid ;
-}
-#div9{
-    display: fixed;
-    justify-content: center;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 38vw;
-    margin: 0 auto;
-    position: relative;
-    top: 40px;
-    background-color: transparent;
-    font-size: 1.5em;
-}
-#p21{
-    display: flex;
-    justify-content: center;
-    font-family: simpsons;
-}
-#div9:hover{
-    color: rgb(25, 9, 255);
-    background-color: rgb(255, 255, 255);
-    border: rgb(16, 26, 222) solid ;
-}
-#hft{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    font-family: simpsons;
-    text-decoration: underline;
-    font-size: 2.5em;
-    color: rgb(215, 52, 215); 
-}
-#divft{
-    display: fixed;
-    justify-content: center;
-    align-items: center;
-    border: blue solid;
-    border-radius: 20px;
-    width: 28vw;
-    margin: 0 auto;
-    position: relative;
-    top: 0px;
-    background-color: transparent;
-    font-size: 1.5em;
-}
-#divft:hover{
-    color: rgb(25, 9, 255);
-    background-color: rgb(255, 255, 255);
-    border: rgb(16, 26, 222) solid ;
-    font-size: 2em;
+    width: 38vw; 
 }
