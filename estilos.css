@@ -16,9 +16,11 @@ body {
     box-sizing: border-box;  
 }
 h1 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-family: simpsons;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 500;
     color: blue;
     font-variation-settings: "MORF" 25%, "SHLN" 15%;
@@ -29,7 +31,6 @@ a {
     font-family: simpsons;
     font-size: 1.5em;
 }
-
 nav ul li {
     display: flex;
     justify-content: space-around   ;
@@ -39,13 +40,13 @@ ul {
     justify-content: space-around;
     list-style: none;
     padding: 0px;
-    gap: 20px; /* Modificado para que sea más flexible */
+    gap: 20px;
 }
 header {
     display: flex;
     justify-content: space-around;
     position: fixed;
-    padding: 1%;
+    padding: 0.5%;
     align-items: center;
     top: 0%;
     left: 0%;
@@ -131,4 +132,40 @@ header {
     border: blue solid;
     border-radius: 20px;
     width: 38vw; 
+    margin: auto;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.7rem;
+}
+#p1{
+    font-size: 1.7em;
+    font-family: simpsons;
+}
+#h2his{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: simpsons;
+    color: darkblue;
+}
+#div2{
+    border: blue solid ;
+    border-radius: 6%;
+    width:75%;
+    height: 55%;
+    margin: auto;
+}
+#pgt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+#H22{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: simpsons;
+    color: rgb(13, 171, 26);
 }
