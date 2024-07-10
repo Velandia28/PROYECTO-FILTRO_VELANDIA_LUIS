@@ -3,169 +3,397 @@
     font-family:simpsons;
     src: url(Simpsonfont.otf);
 }
-body {
+body{
     background-image: url(/img/fondo.jpg);
     background-attachment: fixed;
     background-size: cover;
     margin: 0px;
-    padding: 0px;
 }
-* {
+*{
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;  
-}
-h1 {
-    display: flex;
     justify-content: center;
-    text-align: center;
-    font-family: simpsons;
-    font-size: 2em;
-    font-weight: 500;
-    color: blue;
-    font-variation-settings: "MORF" 25%, "SHLN" 15%;
-}  
-a {
-    text-decoration: none;
-    color: rgb(22, 45, 249, 0.75);
-    font-family: simpsons;
-    font-size: 1.5em;
+    align-items: center;
+    margin: auto;
+}       
+h1{
+        text-align: center;
+        font-family: simpsons;
+        font-optical-sizing:auto;
+        font-weight:500px;
+        color: blue;
+        font-variation-settings:
+        "MORF" 25%,
+        "SHLN" 15%
 }
-nav ul li {
-    display: flex;
-    justify-content: space-around   ;
+a{      
+    text-decoration:none ;
+    color: rgb(22, 45, 249, 0.75);
+    font-family:simpsons ;
+    font-size: 2em ;
 }
 ul {
-    display: flex;
+    display:inline-flex;
     justify-content: space-around;
     list-style: none;
     padding: 0px;
-    gap: 20px;
+    gap: 110px;
+    text-decoration: underline;
 }
-header {
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    padding: 0.5%;
+header{ 
+    display:flex;
+    justify-content:space-around;
+    position:fixed;
+    padding: 10px;
     align-items: center;
-    top: 0%;
-    left: 0%;
+    top: 0px;
+    left: 0px;
     box-shadow: 0 2px 5px rgba(245, 10, 10, 0.1);
 }
-#imgHS {
+#imgHS{
     display: flex;
-    width: 35%; 
-    height: 20%; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 15%;
+    height: 20%;
     margin: 0.5%;
-    border: rgba(255, 255, 255, 0.693) solid;
+    border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 20%;
 }
-#imgSpfd {
+#imgSpfd{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 65%;
-    height: 30%; 
-    border: rgba(255, 255, 255, 0.693) solid;
-    border-radius: 30%;
+    width: 70%;
+    height: 60%;
+    margin: 0.5%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+    border-radius: 30%; 
 }
-#imgMG {
+#imgMG{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 35%; 
-    height: 25%; 
-    border: rgba(0, 0, 0, 0.693) solid;
+    width: 45%;
+    height: 45%;
+    margin: 0.5%;
+    border: rgba(0, 0, 0, 0.693) solid ;
     border-radius: 20%;
 }
-#img11s {
+#img11s{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    width: 40%;
-    height: 32%; 
-    border: rgba(255, 255, 255, 0.693) solid;
-    border-radius: 30%;
-}
-#img11s:hover {
-    width: 60%; 
-    height: 40%;
-    border: rgba(255, 255, 255, 0.693) solid;
-}
-#imgFlia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 40%;
-    height: 30%; 
-    border: rgba(255, 255, 255, 0.693) solid;
-    border-radius: 15%;
-}
-#imgFlia:hover {
-    width: 55%; 
-    height: 40%; 
-    border: rgba(255, 255, 255, 0.693) solid;
-}
-#imgtempo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    width: 40%; 
+    margin:auto ;
+    width: 70%;
     height: 50%;
-    border: rgba(255, 255, 255, 0.693) solid;
-    border-radius: 15%;
+    margin: 0%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+    border-radius: 30%;
 }
-#imgtempo:hover {
-    width: 60%; 
-    height: 40%;
-    border: rgba(255, 255, 255, 0.693) solid;
-}
-#div1 {
+#imgFlia{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:auto ;
+    width: 40%;
+    height: 30%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+    border-radius: 15%;
+}
+#imgFlia:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 55%;
+    height: 45%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+}
+#imgtempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+    height: 10%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+    border-radius: 15%;
+}
+#imgtempo:hover{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 35%;
+    border: rgba(255, 255, 255, 0.693) solid ;
+}
+#div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     border: blue solid;
     border-radius: 20px;
-    width: 38vw; 
+    width: 38vw;
+    background-color: transparent;
+    font-size: 1em;
+}
+#div1:hover{
+    color: blue;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(97, 228, 50);
+    border: rgb(255, 255, 247) solid ;
+}
+#div2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    height: 22vw;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 20px;
+    
 }
-p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.7rem;
-}
-#p1{
-    font-size: 1.7em;
-    font-family: simpsons;
+#div2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 103, 23);
+    border: rgb(16, 26, 222) solid ;
 }
 #h2his{
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
-    font-family: simpsons;
-    color: darkblue;
-}
-#div2{
-    border: blue solid ;
-    border-radius: 6%;
-    width:75%;
-    height: 55%;
+    align-items: center;
     margin: auto;
-}
-#pgt{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
+    font-family: simpsons;
+    font-size: 2.5em;
+    color: rgb(215, 52, 215);
 }
 #H22{
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
+    align-items: center;
+    margin: auto;
     font-family: simpsons;
-    color: rgb(13, 171, 26);
+    font-size: 2.5em;
+    color: rgb(215, 52, 215);
+}
+#div3{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    border: blue solid;
+    border-radius: 20px;
+    width: 30vw;
+    height: 24vw;
+    background-color: transparent;
+    font-size: 1rem;    
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 20px;
+}  
+#div3:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(208, 117, 61);
+    border: rgb(16, 26, 222) solid ;
+}
+#hpredic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+    font-size: 2.5em;
+    color: rgb(215, 52, 215);  
+}
+#div4{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: blue solid;
+    border-radius: 20px;
+    width: 24vw;
+    height: 25vw;
+    background-color: transparent;
+    font-size: 1rem;
+}
+#div4:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 103, 23);
+    border: rgb(16, 26, 222) solid ;
+}
+#h33{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+    font-size: 2.5em;
+    color: rgb(215, 52, 215); 
+}
+#div5{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    margin: auto;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p17{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+}
+#div5:hover{
+    color: rgb(25, 9, 255);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#div6{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p18{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+}
+#div6:hover{
+    color: rgba(25, 255, 9, 0.732);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#div7{
+    display: fixed;
+    justify-content:center;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    margin: auto;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p19{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+}
+#div7:hover{
+    color: rgba(232, 42, 0, 0.855);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#div8{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    position: relative;
+    top:0px;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p20{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+}
+#div8:hover{
+    color: rgba(232, 42, 0, 0.855);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#div9{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 38vw;
+    margin:  auto;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#p21{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+}
+#div9:hover{
+    color: rgb(25, 9, 255);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+}
+#hft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family: simpsons;
+    text-decoration: underline;
+    font-size: 2.5em;
+    color: rgb(215, 52, 215); 
+}
+#divft{
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    border: blue solid;
+    border-radius: 20px;
+    width: 28vw;
+    margin:  auto;
+    position: relative;
+    top: 0px;
+    background-color: transparent;
+    font-size: 1.5em;
+}
+#divft:hover{
+    color: rgb(25, 9, 255);
+    background-color: rgb(255, 255, 255);
+    border: rgb(16, 26, 222) solid ;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    font-size: 1.2rem;
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    font-size: 1.4rem;
 }
