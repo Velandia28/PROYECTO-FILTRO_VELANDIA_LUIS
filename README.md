@@ -32,3 +32,8 @@ y finalizando con una lista de las mejores temporadas que a tenido la serie las 
 > [!NOTE]
 >Esto es la imagen del personaje mas conocido de la familia mas conocida de la television a nivel mundial
 ![2](img/homer.jpg)
+
+> [!IMPORTANT]  
+> Esto es información importante este proyecto tuvo un desarrollo corto y se realizo con la finalidad de afinazar y evaluar conocimientos adquiridos en HTML y CSS
+> El tema fue de eleccion libre
+> Elaboro Luis Felipe Velandia Llanes
