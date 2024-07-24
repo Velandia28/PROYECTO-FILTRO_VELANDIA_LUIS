@@ -5,7 +5,8 @@ la informacion contenida en el proyecto  es relacionada de datos y mas paginas w
 es de mi autoria y creada con HTML y CSS, evidenciando los conocimientos adquiridos y consultas googleadas de partes del codigo
 el diseño es de mi autoria junto con la colorimetria en el proyecto
 
-En la parte superior de la pagina se encuentra un menu el cual redirecciona a diferentes partes de la misma pagina,
+# En la parte superior de la pagina  encuentramos
+un menu el cual redirecciona a diferentes partes de la misma pagina,
 este menu es transparente con letras en color relacionado a la serie y de fondo transparente para no intervenir forzosamente en las demas partes de la pagina
 se continua con div con un breve resumen de la tematica en conjunto con la foto de homero simpson el cual es el personaje mas popular de la serie al aparecer en casi la totalidad de la serie
 junto con la titulacion "The Simpsons" en la tipografia mas similar y en el color representativo del color de Marge Simpson el cual es el azul de su cabello
