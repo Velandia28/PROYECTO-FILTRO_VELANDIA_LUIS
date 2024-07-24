@@ -30,5 +30,5 @@ y finalizando con una lista de las mejores temporadas que a tenido la serie las 
 ![1](img/familia.jpg)
 
 > [!NOTE]
->Esto es la imagen del creador de la familia mas conocida de la television a nivel mundial
-![1](img/matt groening.jpg)
+>Esto es la imagen del personaje mas conocido de la familia mas conocida de la television a nivel mundial
+![2](img/homer.jpg)
