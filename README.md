@@ -25,4 +25,6 @@ y finalizando con una lista de las mejores temporadas que a tenido la serie las 
 
 ## ALGUNAS DE LAS IAMGENES DEL PROYECTO 
 
+> [!NOTE]
+>Esto es la familia mas conocida de la television a nivel mundial
 ![1](img/familia.jpg)
