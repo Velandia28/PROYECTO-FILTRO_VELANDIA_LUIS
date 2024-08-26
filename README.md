@@ -36,4 +36,8 @@ y finalizando con una lista de las mejores temporadas que a tenido la serie las 
 > [!IMPORTANT]  
 > Esto es información importante este proyecto tuvo un desarrollo corto y se realizo con la finalidad de afinazar y evaluar conocimientos adquiridos en HTML y CSS
 > El tema fue de eleccion libre
+
 > Elaboro Luis Felipe Velandia Llanes
+## Acualizaciones
+En los ultimos cambios realizados se agrego una nueva visualizacion para dispositivos moviles de preferencia al tamaño de pantalla de un iphone 14 pro  donde se ajusta el contenido de la pagina al tamaño de la pantalla del dispositivo antes en mencion
+
