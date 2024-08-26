@@ -17,37 +17,35 @@ body{
     margin: auto;
 }       
 h1{
-        text-align: center;
-        font-family: simpsons;
-        font-optical-sizing:auto;
-        font-weight:500px;
-        color: blue;
-        font-variation-settings:
-        "MORF" 25%,
-        "SHLN" 15%
+    text-align: center;
+    font-family: simpsons;
+    font-optical-sizing:auto;
+    font-weight:100px;
+    color: rgb(37, 37, 199);
+    font-variation-settings:
+    "MORF" 25%,
+    "SHLN" 15%
 }
 a{      
     text-decoration:none ;
-    color: rgb(22, 45, 249, 0.75);
+    color: rgba(235, 14, 150, 0.9);
     font-family:simpsons ;
-    font-size: 2em ;
+    font-size: 1em ;
 }
 ul {
-    display:inline-flex;
+    display:flex;
     justify-content: space-around;
     list-style: none;
-    padding: 0px;
-    gap: 110px;
+    padding: 5px;
+    gap: 10px;
     text-decoration: underline;
 }
 header{ 
     display:flex;
-    justify-content:space-around;
-    position:fixed;
+    justify-content:center;
+    
     padding: 10px;
     align-items: center;
-    top: 0px;
-    left: 0px;
     box-shadow: 0 2px 5px rgba(245, 10, 10, 0.1);
 }
 #imgHS{
@@ -66,8 +64,8 @@ header{
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 70%;
-    height: 60%;
+    width: 60%;
+    height: 50%;
     margin: 0.5%;
     border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 30%; 
@@ -77,8 +75,8 @@ header{
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 45%;
-    height: 45%;
+    width: 55%;
+    height: 40%;
     margin: 0.5%;
     border: rgba(0, 0, 0, 0.693) solid ;
     border-radius: 20%;
@@ -87,10 +85,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto ;
+    margin:0 auto ;
     width: 70%;
     height: 50%;
-    margin: 0%;
     border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 30%;
 }
@@ -147,6 +144,8 @@ header{
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(97, 228, 50);
+    border-radius: 40px;
+    width: 50vw;
     border: rgb(255, 255, 247) solid ;
 }
 #div2{
@@ -157,10 +156,10 @@ header{
     border: blue solid;
     border-radius: 20px;
     width: 38vw;
-    height: 22vw;
+    height: 35vw;
     background-color: transparent;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3rem;
+    font-size: 1em;
     flex-wrap: wrap;
     max-width: 100%;
     padding: 20px;
@@ -170,6 +169,9 @@ header{
     color: rgb(255, 255, 255);
     background-color: rgb(231, 103, 23);
     border: rgb(16, 26, 222) solid ;
+    width: 40vw;
+    height: 45vw;
+    font-size: 1.2em;
 }
 #h2his{
     display: flex;
@@ -194,19 +196,24 @@ header{
     justify-items: center;
     align-items: center;
     margin: auto;
-    border: blue solid;
+    border: rgb(150, 150, 209) solid;
     border-radius: 20px;
-    width: 30vw;
-    height: 24vw;
-    background-color: transparent;
-    font-size: 1rem;    
-    flex-wrap: wrap;
-    max-width: 100%;
+    width: 40vw;
     padding: 20px;
+    height: auto;
+    background-color: transparent;
+    font-size: 1em;    
+    flex-wrap: wrap;
+    max-width: 50%;
+    text-align: justify;
+
 }  
 #div3:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(208, 117, 61);
+    font-size: 1.2em; 
+    height: 50vw;
+    text-align: justify;
     border: rgb(16, 26, 222) solid ;
 }
 #hpredic{
@@ -225,15 +232,20 @@ header{
     margin: auto;
     border: blue solid;
     border-radius: 20px;
-    width: 24vw;
-    height: 25vw;
     background-color: transparent;
-    font-size: 1rem;
+    width: 30vw;
+    height: 40vw;
+    font-size: 1em;
+    text-align: justify;
 }
 #div4:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(231, 103, 23);
     border: rgb(16, 26, 222) solid ;
+    width: 33vw;
+    height: 50vw;
+    text-align: justify;
+    font-size: 1.2em;
 }
 #h33{
     display: flex;
@@ -321,8 +333,6 @@ header{
     border: blue solid;
     border-radius: 20px;
     width: 38vw;
-    position: relative;
-    top:0px;
     background-color: transparent;
     font-size: 1.5em;
 }
@@ -377,9 +387,8 @@ header{
     align-items: center;
     border: blue solid;
     border-radius: 20px;
-    width: 28vw;
+    width: 40vw;
     margin:  auto;
-    position: relative;
     top: 0px;
     background-color: transparent;
     font-size: 1.5em;
@@ -391,9 +400,3 @@ header{
     font-size: 2em;
 }
 
-@media only screen and (max-width: 600px) {
-    font-size: 1.2rem;
-}
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    font-size: 1.4rem;
-}
