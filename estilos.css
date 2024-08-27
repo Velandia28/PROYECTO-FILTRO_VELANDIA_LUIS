@@ -86,8 +86,8 @@ header{
     justify-content: center;
     align-items: center;
     margin:0 auto ;
-    width: 70%;
-    height: 50%;
+    width: 50%;
+    height: 30%;
     border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 30%;
 }
@@ -241,7 +241,7 @@ header{
     border: blue solid;
     border-radius: 20px;
     background-color: transparent;
-    width: 40vw;
+    width: 55vw;
     padding: 20px;
     height: auto;
     font-size: 1em;
@@ -251,7 +251,7 @@ header{
     color: rgb(255, 255, 255);
     background-color: rgb(231, 103, 23);
     border: rgb(16, 26, 222) solid ;
-    width: 50vw;
+    width: 60vw;
     padding: 20px;
     height: auto;
     text-align: justify;
@@ -567,12 +567,12 @@ h1{
     margin: auto;
     border: blue solid;
     border-radius: 20px;
-    width: 85vw;
-    height: 120vw;
+    width: 75vw;
+    height: auto ;
     background-color: transparent;
     font-size: 0.8em;
     }
-#pft{
+#pft{   
     text-align: center;
     color:rgb(45, 122, 12);
     font-size: 1.1em;
@@ -586,8 +586,8 @@ ol  {
     justify-content: center;
     align-items: center;
     margin:0 auto ;
-    width: 90%;
-    height: 50%;
+    width: 70%;
+    height: auto;
     border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 30%;
     }
