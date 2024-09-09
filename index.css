@@ -1,0 +1,18 @@
+#productos_contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    max-width: 700px;
+    margin: auto;
+}
+.tarjeta-producto{
+    max-width: 400px;
+    text-align: center;
+    background-color: rgba(235, 173, 119, 0.905);
+    padding: 10px;
+}
+
+.tarjeta-producto img{
+    width:300px;
+    border-radius: 20px;
+}

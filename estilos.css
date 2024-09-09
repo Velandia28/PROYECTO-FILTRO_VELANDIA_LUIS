@@ -7,15 +7,15 @@ body{
     background-image: url(/img/fondo.jpg);
     background-attachment: fixed;
     background-size: cover;
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
 }
-*{
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}       
+h3, p{
+    margin: 6px 0;
+    font-family: simpsons;
+    
+}
 h1{
     text-align: center;
     font-family: simpsons;
@@ -28,25 +28,47 @@ h1{
 }
 a{      
     text-decoration:none ;
-    color: rgba(235, 14, 150, 0.9);
+    color: rgba(5, 1, 3, 0.9);
     font-family:simpsons ;
     font-size: 1em ;
 }
-ul {
+a:hover{
+    color:green ;
+}
+header{
+    box-shadow: 0 3px 5px rgba(232, 42, 0, 0.855);
+    padding: 10px 0 ;
+}
+header nav { 
     display:flex;
     justify-content: space-around;
-    list-style: none;
-    padding: 5px;
-    gap: 10px;
-    text-decoration: underline;
+    margin: 0 30px;
 }
-header{ 
+header  img{ 
+    height: 25px;
+}
+header nav div{ 
     display:flex;
-    justify-content:center;
-    
-    padding: 10px;
+    justify-content:space-between;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(245, 10, 10, 0.1);
+    gap: 40px;
+    position: relative;
+}
+#cuentaCrrito{
+    background-color:rgb(9, 255, 9);
+    border-radius: 100%;
+    display: inline-block;
+    width: 20px;
+    line-height: 20px;
+    aspect-ratio: 1;
+    text-align: center;
+    position: absolute;
+}
+#logo{
+    height: 40px;
+} 
+main{
+    margin: 55px ;
 }
 #imgHS{
     display: flex;
@@ -59,7 +81,7 @@ header{
     border: rgba(255, 255, 255, 0.693) solid ;
     border-radius: 20%;
 }
-#imgSpfd{
+#imgSpfd{   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +224,7 @@ header{
     justify-items: center;
     align-items: center;
     margin: auto;
-    border: rgb(150, 150, 209) solid;
+    border:rgb(16, 26, 222) solid;
     border-radius: 20px;
     width: 40vw;
     padding: 20px;
@@ -241,7 +263,7 @@ header{
     border: blue solid;
     border-radius: 20px;
     background-color: transparent;
-    width: 55vw;
+    width: 35vw;
     padding: 20px;
     height: auto;
     font-size: 1em;
@@ -430,6 +452,36 @@ header{
     padding: 15px;
     height: auto;
     text-align: justify;
+}
+/*APARTIR DE AQUI SE MAQUETA EL CARRITO DE COMPRAS*/
+
+
+
+#merca1{
+    display: flex;
+    padding: 15px;
+    border-radius: 18px;
+    gap: 20px;
+    align-content: space-between;
+    font-family:simpsons;
+    font-size: 1.1em;
+    background-color: rgb(46, 61, 232);
+    width: 63%;
+    height: 80%;
+}
+
+/*LAS ETIQUETAS DESDE AQUI HASTA EL MEDIA QUERY SON REFERNTES AL FOOTER DE LA PAGINA */
+footer{
+    text-align: center;
+    box-shadow:0 -3px 5px rgba(232, 42, 0, 0.855); ;
+    margin-top:auto;
+    justify-content: center;
+    align-items: center;
+}
+#infofin,#infofin2{
+    font-size:2em;
+    justify-content: center;
+    font-family: simpsons;
 }
 
 @media (max-width:700px ){
