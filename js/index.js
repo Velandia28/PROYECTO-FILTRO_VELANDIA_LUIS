@@ -11,6 +11,7 @@ function crertarjetasproductos(productos) {
             <button>Agregar al carrito</button>
         `;
         contenedorTarjetas.appendChild(nuevo_producto);
+        nuevo_producto.getElementsByTagName("button")[0].addEventListener("click",()=>AgregarALcarrito(producto))
     });
 }
 crertarjetasproductos(mercancia);
